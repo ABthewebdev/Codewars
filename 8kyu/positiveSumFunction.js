@@ -1,4 +1,5 @@
 // You get an array of numbers, return the sum of all of the positives ones
+// My solution
 arr = [-1, -4, 2, 3, 8]
 function positiveSum(arr) {
   let sum = 0;
