@@ -1,4 +1,5 @@
 // Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+// My solution
 function boolToString(bool) {
     if(bool === true) {
         return 'Yes';
@@ -6,3 +7,7 @@ function boolToString(bool) {
         return 'No';
     }
 }
+
+function boolToWord( bool ){
+    return bool ? 'Yes':'No';
+  }
