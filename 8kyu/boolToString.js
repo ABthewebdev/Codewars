@@ -10,4 +10,4 @@ function boolToString(bool) {
 
 function boolToWord( bool ){
     return bool ? 'Yes':'No';
-  }
+}
