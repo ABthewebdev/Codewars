@@ -8,6 +8,6 @@ function boolToString(bool) {
     }
 }
 
-function boolToWord( bool ){
+function boolToString( bool ){
     return bool ? 'Yes':'No';
 }

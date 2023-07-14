@@ -2,10 +2,5 @@
 // Return true if it is a factor or false if it is not.
 
 function checkForFactor(base, factor) {
-  if(base % factor === 0) {
-    return true
-  }
-  else {
-    return false
-  }
+  base % factor === 0
 }

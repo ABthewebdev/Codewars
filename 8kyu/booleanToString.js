@@ -4,6 +4,6 @@ function booleanToString(b) {
     return b.toString()
 }
 
-function booToString() {
+function booleanToString(b) {
     return b ? 'true' : 'false'
 }

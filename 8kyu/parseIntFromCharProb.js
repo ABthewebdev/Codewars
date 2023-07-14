@@ -6,4 +6,4 @@ function getAge(inputString){
     return parseInt(inputString);
 }
 
-const getAge2 = parseInt;
+const getAge = parseInt;
