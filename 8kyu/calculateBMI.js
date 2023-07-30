@@ -3,6 +3,7 @@
 // if bmi <= 25.0 return "Normal"
 // if bmi <= 30.0 return "Overweight"
 // if bmi > 30 return "Obese"
+// My solution
 function bmi(weight, height) {
     let mass = weight / Math.pow(height, 2)
     if(mass <= 18.5) {
@@ -18,3 +19,7 @@ function bmi(weight, height) {
       return 'Obese';
     }
 }
+
+const bmi = (w, h, bmi = w/h/h) =>  bmi <= 18.5 ? "Underweight" :
+                                    bmi <= 25 ? "Normal" :
+                                    bmi <= 30 ? "Overweight" : "Obese";
